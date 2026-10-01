@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Memento scheduling databases (personal review history, never commit)
+.memento.db
+.memento.db-journal
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
